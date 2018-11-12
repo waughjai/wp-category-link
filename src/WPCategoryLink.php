@@ -28,7 +28,7 @@ namespace WaughJ\WPCategoryLink
 			parent::__construct( $href, $value, $atts );
 		}
 
-		private static function GetCategoryID( array $atts ) : ?object
+		private static function GetCategoryID( array $atts )
 		{
 			$category = false;
 			if ( isset( $atts[ 'slug' ] ) )
